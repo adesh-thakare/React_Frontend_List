@@ -14,7 +14,7 @@ const FrameMain = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await axios.get('http://https://node-backend-livid.vercel.app/top-authors');
+                const response = await axios.get('http://node-backend-livid.vercel.app/top-authors');
                 setData(response.data);
                 setCountMembers(response.data.length);
                 //console.log(response.data);
