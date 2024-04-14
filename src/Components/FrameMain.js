@@ -14,7 +14,7 @@ const FrameMain = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await axios.get('https://localhost:8000/top-authors');
+                const response = await axios.get('https://nodebackend-production-c21f.up.railway.app/top-authors');
                 setData(response.data);
                 setCountMembers(response.data.length);
                 //console.log(response.data);
