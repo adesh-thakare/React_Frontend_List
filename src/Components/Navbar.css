@@ -1,0 +1,128 @@
+.logo-icon {
+    width: 48px;
+    position: relative;
+    height: 48px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .icon {
+    width: 24px;
+    position: relative;
+    height: 24px;
+    display: none;
+  }
+  .button-label {
+    position: relative;
+    letter-spacing: 0.3px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: Inter;
+  }
+  .badge-icon {
+    width: 24px;
+    position: relative;
+    height: 23px;
+  }
+  .item-1 {
+    border-radius: var(--radius-150);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--space-150) var(--space-200);
+    gap: var(--space-100);
+  }
+  .icon-leading {
+    width: 12px;
+    position: relative;
+    height: 12px;
+    display: none;
+  }
+  .label {
+    position: relative;
+    letter-spacing: 0.4px;
+  }
+  .badge {
+    border-radius: var(--radius-rounded);
+    background-color: var(--background-brand-medium);
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--space-050) var(--space-100);
+    gap: var(--space-100);
+    font-size: var(--caption-bold-size);
+    color: var(--text-brand-subtle);
+  }
+  .menu {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .icon-leading2 {
+    width: 16px;
+    position: relative;
+    height: 16px;
+    display: none;
+  }
+  .button-label6 {
+    position: relative;
+    letter-spacing: 0.4px;
+    line-height: 16px;
+    font-weight: 500;
+    font-family: Inter;
+  }
+  .label-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px var(--space-050);
+  }
+  .button {
+    border-radius: var(--radus-100);
+    background: linear-gradient(89.82deg, #4b42d6, #12acba);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--space-150);
+
+  }
+  .trailing-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    font-size: var(--caption-bold-size);
+    color: var(--background-elevation-1);
+  }
+  .content {
+    width: 1216px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--space-200);
+  }
+  .navbar-fixed {
+    width: 1440px;
+    background-color: var(--background-elevation-1);
+    max-width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--space-200) 0px;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: var(--action-medium-semibold-size);
+    color: var(--text-primary);
+    font-family: var(--caption-bold);
+  }
+  

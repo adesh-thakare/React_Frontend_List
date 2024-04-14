@@ -1,0 +1,92 @@
+.status {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-radius: var(--br-21xl);
+    background-color: var(--stroke-state-success-subtle);
+    border: 2px solid var(--background-primary);
+    box-sizing: border-box;
+    width: 12px;
+    height: 12px;
+    overflow: hidden;
+    display: none;
+  }
+  .avatar {
+    height: 48px;
+    width: 48px;
+    position: relative;
+    border-radius: var(--br-109xl);
+    /* background-image: url(/public/avatar@3x.png); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+  .leading-content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: var(--padding-lg) 0 var(--padding-lg) var(--padding-5xl);
+  }
+  .jenny-appleseed,
+  .jennyappleseedexamplecom {
+    position: relative;
+    letter-spacing: 0.25px;
+    line-height: 21px;
+  }
+  .jenny-appleseed {
+    display: inline-block;
+    min-width: 123px;
+  }
+  .jennyappleseedexamplecom {
+    color: var(--text-secondary);
+    white-space: nowrap;
+  }
+  .middle-content,
+  .middle-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .middle-content {
+    align-self: stretch;
+    padding: 0 var(--padding-xl) 0 var(--space-300);
+    gap: var(--space-050);
+  }
+  .middle-content-wrapper {
+    width: 436px;
+    flex-shrink: 0;
+    padding: var(--padding-lgi) 0 0;
+    box-sizing: border-box;
+    max-width: calc(100% - 128px);
+  }
+  .xcircle-icon {
+    height: 32px;
+    width: 32px;
+    position: relative;
+  }
+  .list-item,
+  .trailing-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .trailing-content {
+    align-self: stretch;
+    align-items: center;
+    padding: var(--space-200) var(--space-300) var(--space-200) 0;
+  }
+  .list-item {
+    width: 564px;
+    flex: 1;
+    border-bottom: 1px solid var(--stroke-primary);
+    box-sizing: border-box;
+    overflow-x: auto;
+    align-items: flex-start;
+    text-align: left;
+    font-size: var(--body-small-regular-size);
+    color: var(--text-primary);
+    font-family: var(--body-small-regular);
+  }
+  
