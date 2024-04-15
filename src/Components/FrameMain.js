@@ -2,8 +2,6 @@ import React, { useState, useEffect } from "react";
 import arrow from "../assets/arrow.png";
 import avatar from "../assets/avatar@3x.png";
 import closeIcon from "../assets/closeIcon.png";
-
-
 import axios from 'axios';
 
 const FrameMain = () => {
@@ -14,7 +12,7 @@ const FrameMain = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await axios.get('https://nodebackend-production-c21f.up.railway.app/top-authors');
+                const response = await axios.get('http://localhost:8000/top-authors');
                 setData(response.data);
                 setCountMembers(response.data.length);
                 //console.log(response.data);
