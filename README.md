@@ -25,3 +25,4 @@ Summary - ReactJS UI application web page to display authors with emails.
 
 Open http://localhost:3000 to see the app in action.
    
+Vercel deployment link - https://react-frontend-list.vercel.app/
