@@ -1,5 +1,5 @@
 import React from "react";
-import Frame from "../Frame";
+
 import FrameMain from "./FrameMain";
 import Navbar from "./Navbar";
 
