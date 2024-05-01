@@ -29,3 +29,6 @@ Demo Link on Loom Video -  https://www.loom.com/share/121b7a91d1ca40699a831948c2
 Open http://localhost:3000 to see the app in action.
    
 Vercel deployment link - https://react-frontend-list.vercel.app/
+
+SEO Features added to the app for all pages focusing on Animation AI related keywords. 
+
